@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <h1>Time sheet calculator</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+              <th>Start Time</th>
+              <th>End Time</th>
+              <th>Break Time</th>
+              <th>Total Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="time-row">
+                    <td>Monday</td>
+                    <td><input type="time" class="start-time"></td>
+                    <td><input type="time" class="end-time"></td>
+                    <td><input type="number" class="break-time" value="0"></td>
+                    <td><span class="total-time">0</span></td>
+                </tr>
+                <tr class="time-row">
+                    <td>Tuesday</td>
+                    <td><input type="time" class="start-time"></td>
+                    <td><input type="time" class="end-time"></td>
+                    <td><input type="number" class="break-time" value="0"></td>
+                    <td><span class="total-time">0</span></td>
+                </tr>
+                <tr class="time-row">
+                    <td>Wednesday</td>
+                    <td><input type="time" class="start-time"></td>
+                    <td><input type="time" class="end-time"></td>
+                    <td><input type="number" class="break-time" value="0"></td>
+                    <td><span class="total-time">0</span></td>
+                </tr>
+                <tr class="time-row">
+                    <td>Thursday</td>
+                    <td><input type="time" class="start-time"></td>
+                    <td><input type="time" class="end-time"></td>
+                    <td><input type="number" class="break-time" value="0"></td>
+                    <td><span class="total-time">0</span></td>
+                </tr>
+                <tr class="time-row">
+                    <td>Friday</td>
+                    <td><input type="time" class="start-time"></td>
+                    <td><input type="time" class="end-time"></td>
+                    <td><input type="number" class="break-time" value="0"></td>
+                    <td><span class="total-time">0</span></td>
+                </tr>
+                <tr class="time-row">
+                    <td>Saturday</td>
+                    <td><input type="time" class="start-time"></td>
+                    <td><input type="time" class="end-time"></td>
+                    <td><input type="number" class="break-time" value="0"></td>
+                    <td><span class="total-time">0</span> </td>
+                </tr>
+                <tr class="time-row">
+                    <td>Sunday</td>
+                    <td><input type="time" class="start-time"></td>
+                    <td><input type="time" class="end-time"></td>
+                    <td><input type="number" class="break-time" value="0"></td>
+                    <td><span class="total-time">0</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="calculate-btn">Calculate</button>
+        <p class="total-hours">Total Hours: <span class="total-value">0</span> hours</p>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
